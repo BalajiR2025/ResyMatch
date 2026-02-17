@@ -1,0 +1,18 @@
+Job Description:
+
+We are looking for a Cloud Engineer to design, implement, and maintain cloud infrastructure for scalable and secure applications. The candidate will work with cloud services, automation, and monitoring to ensure high availability.
+Key Responsibilities:
+
+Design and deploy cloud-based solutions on AWS, Azure, or GCP.
+Manage cloud infrastructure, including VMs, storage, networks, and security policies.
+Implement CI/CD pipelines for automated deployment of applications and services.
+Monitor cloud resources, optimize costs, and ensure reliability and performance.
+Collaborate with development and operations teams to support scalable solutions.
+Troubleshoot issues and implement backup, recovery, and disaster recovery solutions.
+Qualifications:
+
+Bachelor’s degree in Computer Science, IT, or related field.
+Hands-on experience with AWS, Azure, or GCP.
+Familiarity with Linux/Windows server environments, Docker, and Kubernetes.
+Knowledge of networking, security, and cloud best practices.
+Scripting skills in Python, Bash, or PowerShell.

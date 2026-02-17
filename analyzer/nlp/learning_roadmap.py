@@ -1,18 +1,17 @@
-LEARNING_MAP = {
-    "python": ["Basics", "OOP", "Data Structures"],
-    "django": ["Models", "Views", "REST APIs"],
-    "aws": ["EC2", "S3", "IAM"],
-    "docker": ["Images", "Containers", "Docker Compose"],
-    "sql": ["Joins", "Indexes", "Optimization"],
-    "git": ["Branches", "PRs", "CI/CD"],
-}
-
-def generate_roadmap(missing_skills):
+def generate_learning_roadmap(missing_skills):
+    """
+    Generates a simple learning roadmap based on missing skills
+    """
     roadmap = {}
+
     for skill in missing_skills:
-        key = skill.lower()
-        roadmap[skill] = LEARNING_MAP.get(
-            key,
-            ["Basics", "Intermediate concepts", "Advanced usage"]
-        )
+        roadmap[skill] = {
+            "level": "Beginner → Intermediate",
+            "suggested_resources": [
+                f"Learn {skill} fundamentals (YouTube)",
+                f"{skill} official documentation",
+                f"Practice {skill} with mini projects"
+            ]
+        }
+
     return roadmap
