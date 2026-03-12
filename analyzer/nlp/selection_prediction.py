@@ -1,19 +1,26 @@
+from analyzer.nlp.ats_score import ats_quality_band
+
+
 def predict_selection(ats_score: float) -> dict:
     """
-    Predicts selection chance based on ATS score
+    Predict selection chance based on the calibrated ATS quality band.
     """
-    if ats_score >= 75:
+    band = ats_quality_band(ats_score)
+
+    if band in ("Excellent", "Good"):
         return {
             "chance": "High",
-            "message": "Strong match. Very good chance of selection."
+            "band": band,
+            "message": "Strong match. Very good chance of selection.",
         }
-    elif ats_score >= 50:
+    if band == "Fair":
         return {
             "chance": "Medium",
-            "message": "Moderate match. Improve missing skills to increase chances."
+            "band": band,
+            "message": "Moderate match. Improve missing skills to increase chances.",
         }
-    else:
-        return {
-            "chance": "Low",
-            "message": "Low match. Resume needs significant improvement."
-        }
+    return {
+        "chance": "Low",
+        "band": band,
+        "message": "Low match. Resume needs significant improvement.",
+    }
