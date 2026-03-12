@@ -1,9 +1,10 @@
-from difflib import SequenceMatcher
+"""
+Backward-compatible wrapper around the main similarity implementation.
 
-def calculate_similarity(resume_text, jd_text):
-    resume_text = resume_text.lower()
-    jd_text = jd_text.lower()
+The primary implementation now lives in `similarity.calculate_similarity`,
+which uses TF–IDF cosine similarity. This module is kept so any older imports
+continue to work.
+"""
 
-    similarity = SequenceMatcher(None, resume_text, jd_text).ratio()
-    return min(similarity * 300, 100)
+from analyzer.nlp.similarity import calculate_similarity  # noqa: F401
 

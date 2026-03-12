@@ -1,0 +1,24 @@
+Ability to manage AWS cloud workloads, especially EC2, RDS, VPC, and CloudWatch.
+Experience communicating directly with customers over phone and chat in English. 
+Ability to be adaptable and think critically in customer situations. 
+Knowledge of infrastructure and networking in AWS Services, with deep understanding of EC2 and VPC. 
+Understanding of networks and website management, including IT infrastructure such as DNS, VPNs, SSL, Elastic Load Balancers, and CloudFront distributions. 
+Understanding of web server applications and the administration of web application environments. 
+Working knowledge of web server applications (Apache, nginx, Tomcat, IIS, or varnish) and administrating web application environments (LAMP, RoR, Java, or ASP.NET Core | Open- source web framework for .NET ) 
+Ability to understand and troubleshoot database issues for both RDS and NoSQL databases.
+Understand how to identify problematic queries using tools such as RDS performance insights. 
+Ability to understand containerization solutions (infrastructure, pipelines, automation) using tools such as Docker (Dockerfiles, ECS, ECS Fargate) or Kubernetes (manifests, Helm and deployment tooling, KOPS, EKS, or Fargate). 
+Knowledge of technical customer support processes that include planning, coordinating, problem resolution, and documentation 
+Ability to work a flexible schedule, including nights, weekends, and holidays 
+Experience working as System Administrator (Linux and Windows) preferred
+
+Certification preferred: 
+
+AWS SysOps Associate certification required
+
+Solutions Architect - Professional 
+
+Acknowledgment 
+
+All parties involved have reviewed and understood these accountabilities, responsibilities, and 
+expectations assigned to me. This is not meant to be an extensive list of
